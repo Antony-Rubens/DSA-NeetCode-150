@@ -13,5 +13,5 @@ class Solution:
             res[i] = prod
         return res
 solution=Solution()
-nums=[1,2,5,6,7]
+nums=[1,2,5,6,]
 print(solution.productExceptSelf(nums))
