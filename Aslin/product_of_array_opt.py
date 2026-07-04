@@ -16,5 +16,5 @@ class Solution:
         return res
     
 solution=Solution()
-nums=[10,2,30,40]
+nums=[10,20,30,40]
 print(solution.productOfArray(nums))
