@@ -13,5 +13,5 @@ class Solution:
         return longest
     
 solution=Solution()
-numSet=[2,20,4,10,3,4,1]
+numSet=[2,20,4,10,3,4,5]
 print(solution.longestConsecutive(numSet))
