@@ -1,6 +1,5 @@
-from typing import List
 class Solution:
-    def containsDuplicate(self, nums):
+    def isContainsDuplicate(self,nums:list[int])->bool:
         seen=set()
         for num in nums:
             if num in seen:
@@ -8,9 +7,8 @@ class Solution:
             seen.add(num)
         return False
     
-
 solution=Solution()
-testcase1=[1,3,2,1]
-testcase2=[1,2,3,4]
-print(solution.containsDuplicate(testcase1))
-print(solution.containsDuplicate(testcase2))
+nums1=[1,2,3,3]
+nums2=[1,2,3,4]
+print(solution.isContainsDuplicate(nums1))
+print(solution.isContainsDuplicate(nums2))
