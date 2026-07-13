@@ -14,6 +14,6 @@ class Solution:
             prevMap[n]=i
 
 solution=Solution()
-nums=[3,4,5,6,8]
+nums=[3,4,5,6,7]
 target=7
 print(solution.twoSum(nums,target))
