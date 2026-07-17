@@ -14,4 +14,4 @@ class Solution:
 solution = Solution()
 testcase = [2, 3, 4, 7]
 target = 7
-print(solution.twosum(testcase, target))
+print(solution.Two_sum(testcase, target))
