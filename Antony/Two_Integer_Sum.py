@@ -7,5 +7,5 @@ class Solution:
                     return [i+1,j+1]
         return []
 Solution = Solution()
-testcase = [1, 2, 3, 4, 5, 6]
+testcase = [1, 2, 3, 4, 5]
 print(Solution.twosum(testcase, 9))
