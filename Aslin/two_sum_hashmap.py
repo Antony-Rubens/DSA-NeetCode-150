@@ -15,6 +15,6 @@ class Solution:
         return []
     
 solution=Solution()
-nums=[3,4,5,6]
+nums=[3,4,5,6,7]
 target=7
 print(solution.twoSum(nums,target))
