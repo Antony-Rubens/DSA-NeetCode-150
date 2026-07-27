@@ -9,5 +9,5 @@ class Solution:
         return res
 
 solution=Solution()
-prices=[7,6,4,3,1]
+prices=[7,1,5,3,6,4]
 print(solution.maxProfit(prices))
