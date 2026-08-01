@@ -18,6 +18,6 @@ class Solution:
         return res
 
 solution=Solution()
-s="AAABABB"
+s="AAABABBBB"
 k=1
 print(solution.characterReplacement(s,k))
