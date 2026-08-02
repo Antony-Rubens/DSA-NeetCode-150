@@ -20,7 +20,7 @@ class Solution:
         return False
 
 solution=Solution()
-s1="abcd"
+s1="abc"
 s2="lecabee"
 print(solution.checkInclusion(s1,s2))
                 
