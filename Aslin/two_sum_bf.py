@@ -9,5 +9,5 @@ class Solution:
     
 solution=Solution()
 target=7
-case=[3,4,5,6,7,8]
+case=[3,4,5,6,7,8,9]
 print(solution.twoSum(case,target))
