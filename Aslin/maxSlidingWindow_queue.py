@@ -20,6 +20,6 @@ class Solution:
         return output
 
 solution=Solution()
-nums=[1,2,1,0,4,2]
+nums=[1,2,1,0,4,2,6]
 k=3
 print(solution.maxSlidingWindow(nums,k))
