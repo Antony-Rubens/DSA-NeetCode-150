@@ -16,5 +16,5 @@ class Solution:
 
         return True if not stack else False
 solution=Solution()
-s="{}"
+s="{()}"
 print(solution.validParanthese(s))
